@@ -9,7 +9,7 @@ export default function Home() {
           title="YouTube video public domain content"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-          className="w-full max-w-screen-lg aspect-video"
+          className="w-full max-w-(--breakpoint-lg) aspect-video"
         ></iframe>
         <SignOut />
       </div>
